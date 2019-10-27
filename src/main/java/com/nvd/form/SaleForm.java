@@ -8,6 +8,7 @@ import lombok.Data;
 import javax.validation.constraints.NotNull;
 import java.math.BigDecimal;
 
+// 接收表单上传项
 @ApiModel(value = "销售记录信息")
 @Data
 public class SaleForm {
